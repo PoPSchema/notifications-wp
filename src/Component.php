@@ -17,6 +17,7 @@ class Component extends AbstractComponent
     {
         return [
             \PoP\Notifications\Component::class,
+            \PoP\EngineWP\Component::class,
         ];
     }
 }
