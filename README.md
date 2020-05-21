@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/notifications-wp
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\NotificationsWP\Component::initialize();
 ```
--->
 
 ## Standards
 
