@@ -1,5 +1,5 @@
 {
-    "name": "getpop/notifications-wp",
+    "name": "pop-schema/notifications-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Notifications\"",
     "keywords": [
@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/notifications": "dev-master",
+        "pop-schema/notifications": "dev-master",
         "getpop/engine-wp": "dev-master"
     },
     "require-dev": {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\NotificationsWP\\": "src"
+            "PoPSchema\\NotificationsWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\NotificationsWP\\": "tests"
+            "PoPSchema\\NotificationsWP\\": "tests"
         }
     },
     "scripts": {

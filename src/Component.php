@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\NotificationsWP;
+namespace PoPSchema\NotificationsWP;
 
 use PoP\Root\Component\AbstractComponent;
 
@@ -16,7 +16,7 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\Notifications\Component::class,
+            \PoPSchema\Notifications\Component::class,
             \PoP\EngineWP\Component::class,
         ];
     }
